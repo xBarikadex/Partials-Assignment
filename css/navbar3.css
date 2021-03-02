@@ -1,0 +1,31 @@
+body {
+  margin: 0px;
+}
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+}
+
+.title {
+  background-color: navy;
+  border: 15px solid grey;
+  margin: 25px;
+  width: 93%;
+}
+
+.navbar {
+  width: 93%;
+  border: 15px solid #333;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+}

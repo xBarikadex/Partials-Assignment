@@ -1,0 +1,58 @@
+body {
+  margin: 0px;
+}
+
+/*Navbar Divs*/
+.container1 {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: 200px auto 200px;
+  grid-template-rows: repeat(2, auto);
+  background-color: #CDCDCD;
+  align-items: center;
+}
+
+.logo {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 2;
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.title {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+  margin-left: 40px;
+}
+
+.navbar {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.nav {
+  background-color: #555555;
+  margin: 10px;
+  float: left;
+  width: 180px;
+  border-radius: 10px;
+}
+
+div h2:hover {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+img#logo {
+  width: 150px;
+  height: 150px;
+}
